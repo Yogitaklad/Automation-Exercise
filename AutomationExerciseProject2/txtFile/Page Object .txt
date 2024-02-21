@@ -1,0 +1,141 @@
+Account created Page :
+
+@FindBy(xpath="//h2[@data-qa='account-created']/b") WebElement accountCreated;
+@FindBy(xpath="//a[@data-qa='continue-button']") WebElement continueButton;
+
+Account deleted 
+@FindBy(xpath="//h2[@data-qa='account-deleted']/b") WebElement accountDeleteded;
+@FindBy(xpath="//div[@class='pull-right']/a") WebElement continueButton; 
+
+Checkout Page
+
+
+	@FindBy(xpath="//ul[id='address_delivery']/li") WebElement deliveryAddress;
+	@FindBy(xpath="//ul[@id='address_invoice']/li") WebElement InvoiceAddress;
+	@FindBy(xpath="//dicv[@id=\"cart_info\"]/table/tbody/tr[2]/td[4]/p") WebElement totalAmount;
+	@FindBy(xpath="//div[@id='ordermsg']/textarea") WebElement comment;
+	@FindBy(xpath="//a[@href='/payment']") WebElement PlaceOrderButton;
+
+Contact us page
+
+//Repository
+	@FindBy(xpath="//ul[id='address_delivery']/li") WebElement deliveryAddress;
+	@FindBy(xpath="//ul[@id='address_invoice']/li") WebElement InvoiceAddress;
+	@FindBy(xpath="//dicv[@id=\"cart_info\"]/table/tbody/tr[2]/td[4]/p") WebElement totalAmount;
+	@FindBy(xpath="//div[@id='ordermsg']/textarea") WebElement comment;
+	@FindBy(xpath="//a[@href='/payment']") WebElement PlaceOrderButton;
+	
+	Enter Account Information 
+	
+	//Repository
+	@FindBy(xpath="//div[@class='login-form']/h2/b") WebElement enterAccountInformation;
+	@FindBy(id="id_gender2") WebElement titleMrsCheckbox;
+	@FindBy(id="password") WebElement passwordInput;
+	@FindBy(id="days") WebElement daySelect;
+	@FindBy(id="months") WebElement monthSelect;
+	@FindBy(id="years") WebElement yearSelect;
+	@FindBy(id="newsletter") WebElement newsletterCheckbox;
+	@FindBy(id="optin") WebElement specialOfferCheckbox;
+	@FindBy(xpath="//h2[@class='title text-center']/b") WebElement addressInformation;
+	@FindBy(id="first_name") WebElement firstNameInput;
+	@FindBy(id="last_name") WebElement lastNameInput;
+	@FindBy(id="company") WebElement companyInput;
+	@FindBy(id="address1") WebElement address1Input;
+	@FindBy(id="address2") WebElement address2Input;
+	@FindBy(id="country") WebElement countrySelect;
+	@FindBy(id="state") WebElement stateInput;
+	@FindBy(id="city") WebElement cityInput;
+	@FindBy(id="zipcode") WebElement zipcodeInput;
+	@FindBy(id="mobile_number") WebElement mobileNumberInput;
+	@FindBy(xpath="//button[@type='submit']") WebElement createAccountButton; 
+	
+	LOgged Home Page
+	
+	@FindBy(xpath="//a[@href='/logout']")WebElement logoutButton;
+	@FindBy(xpath="//a[@href='/delete_account']")WebElement deleteAccountButton; 
+	@FindBy(xpath="//ul[@class='nav navbar-nav']/li[10]/a/b")WebElement usename; 
+	
+	Payment Page
+	
+	@FindBy(xpath="//input[@data-qa='name-on-card']") WebElement nameOnCardInput;
+	@FindBy(xpath="//input[@data-qa='card-number']") WebElement cardNumberInput;
+	@FindBy(xpath="//input[@data-qa='cvc']")WebElement cvcInput;
+	@FindBy(xpath="//input[@data-qa='expiry-month']")WebElement expirationMonthInput;
+	@FindBy(xpath="//input[@data-qa='expiry-year']")WebElement expirationYearInput;
+	@FindBy(xpath="//button[@data-qa='pay-button']")WebElement payAndConfirmOrder; 
+	@FindBy(xpath="//div[@id=\"success_message\"]/div")WebElement successMessage;
+	@FindBy(xpath="/div[@class='col-sm-9 col-sm-offset-1']/p")WebElement orderConfirmationMessage;
+	@FindBy(xpath="//a[@href='/download_invoice/1900']")WebElement downloadInvoice;
+	@FindBy(xpath="//a[@data-qa='continue-button']")WebElement continueButton; 
+	
+	Products Details Page
+	
+	@FindBy(xpath="//div[@class='product-information']/h2") WebElement productName;
+	@FindBy(xpath="//div[@class='product-information']/p") WebElement productCategory;
+	@FindBy(xpath="//div[@class='product-information']/span/span") WebElement productPrice;
+	@FindBy(xpath="//div[@class='product-information']//p[2]/b") WebElement productAvailability;
+	@FindBy(xpath="//div[@class='product-information']//p[3]/b") WebElement productCondition;
+	@FindBy(xpath="//div[@class='product-information']//p[4]/b") WebElement productBrand;
+	@FindBy(id="quantity") WebElement quantityInput;
+	@FindBy(xpath="//div[@class='product-information']/span/button") WebElement addToCartButton;
+	@FindBy(xpath="//a[@href='#reviews']") WebElement writeYourReview;
+	@FindBy(id="name") WebElement nameInput;
+	@FindBy(id="email") WebElement emailInput;
+	@FindBy(id="review") WebElement addReviewHere;
+	@FindBy(id="button-review") WebElement submitButton;
+	@FindBy(xpath="//div[@class='alert-success alert']/span") WebElement successMessage; 
+}
+
+Product Page
+
+@FindBy (xpath="//div[@class='features_items']/h2/text()") WebElement TitleTextCenter; 
+	@FindBy () WebElement AllproductsList;
+	@FindBy (xpath="//a[@href='#Women']") WebElement WomenCategory;
+	@FindBy (xpath="//a[@href='/category_products/1']") WebElement WomenDressCategory;
+	@FindBy (xpath="//a[@href='/category_products/2']") WebElement WomenTopsCategory;
+	@FindBy (xpath="//a[@href='/category_products/7']") WebElement WomenSareeCategory;
+	@FindBy (xpath="//a[@href='#Men']") WebElement MenCategory;
+	@FindBy (xpath="//a[@href='/category_products/3']") WebElement TshirtsCategory;
+	@FindBy (xpath="//a[@href='/category_products/6']") WebElement JeansCategory;
+	@FindBy (xpath="//a[@href='#Kids']") WebElement KidsCategory;
+	@FindBy (xpath="//a[@href='/category_products/4']") WebElement KidsDressCategory;
+	@FindBy (xpath="//a[@href='/category_products/5']") WebElement KidsTopsAndShirtsCategory;
+	@FindBy (id="search_product") WebElement SearchInput;
+	@FindBy (id="submit_search")WebElement SearchButton;
+	@FindBy (xpath="//div[@class='features_items']/h2/text()") WebElement SearchedResultTextCenter;
+	@FindBy (xpath="//a[@href='/product_details/1']") WebElement ViewProductbtnoffirstproduct;
+	@FindBy (xpath="//a[@href='/product_details/2']") WebElement ViewProductbtnofSecondproduct;
+	@FindBy (xpath="//a[@data-product-id='1']") WebElement AddtoCartButtonproduct1;
+	@FindBy (xpath="//a[@data-product-id='2']") WebElement AddtoCartButtonproduct2;
+	@FindBy (xpath="//div[@class=\"modal-footer\"]/button") WebElement ContinueShoppingbutton;
+	@FindBy (xpath="//a[@href='/view_cart']") WebElement ViewCartButton;
+	@FindBy (xpath="//div[@class='brands_products']/h2") WebElement Brand;
+	@FindBy (xpath="//a[@href='/brand_products/Polo']") WebElement Polo;
+	@FindBy (xpath="//a[@href='/brand_products/H&M']") WebElement HAndM;
+	@FindBy (xpath="//a[@href='/brand_products/Biba']") WebElement Biba;
+	
+	SignUpLogin Page
+	
+	@FindBy(xpath="//div[@class='login-form']/h2") WebElement loginToYourAccount;
+	@FindBy(xpath="//input[@data-qa='login-email']") WebElement loginEmailInput;
+	@FindBy(xpath="//input[@data-qa='login-password']") WebElement loginPasswordInput; 
+	@FindBy(xpath="//button[@data-qa='login-button']") WebElement loginButton;
+	@FindBy(xpath="//div[@class='login-form']/form/p") WebElement errorMessage;
+	@FindBy(xpath="//div[@class='signup-form']/h2") WebElement NewUserSignUp;
+	@FindBy(xpath="//input[@data-qa='signup-name']") WebElement signUpNameInput;
+	@FindBy(xpath="//input[@data-qa='signup-email']") WebElement signUpEmailInput;
+	@FindBy(xpath="//button[@data-qa='signup-button']") WebElement signUpButton;
+	@FindBy(xpath="//div[@class='signup-form']/form/p") WebElement emailAddressAlreadyExist;
+}
+	TestcasePage 
+	
+	@FindBy(xpath="//div[@class='panel-group']/div/div/h4/a/u") WebElement testCases ; 
+}
+
+
+
+
+
+
+	
+	
