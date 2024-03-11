@@ -13,6 +13,7 @@ Fluent Interface
 Data-Driven approach
 
 💯 The project includes all available test cases:
+
 ✅ Test Case 1: Register User
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
