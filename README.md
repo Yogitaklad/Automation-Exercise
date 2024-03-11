@@ -1,6 +1,4 @@
 💠 Automated tests using Selenium with Java for an E-commerce website
-🌍 Website home page
-homepage
 
 🧑‍🏫 About this project
 This project was developed to enhance test automation proficiency through the application of the Selenium (Java) framework, leveraging insights acquired from an Automation Tester course. The targeted website is designed exclusively for automated testing, encompassing a comprehensive suite of 26 automated tests derived from developer-defined test cases. 
@@ -33,6 +31,7 @@ Data-Driven approach
 16. Verify that 'Logged in as username' is visible
 17. Click 'Delete Account' button
 18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
+    
 ✅ Test Case 2: Login User with correct email and password
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -42,6 +41,7 @@ Data-Driven approach
 6. Enter correct email address and password
 7. Click 'login' button
 8. Verify that 'Logged in as username' is visible
+   
 ✅ Test Case 3: Login User with incorrect email and password
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -51,6 +51,7 @@ Data-Driven approach
 6. Enter incorrect email address and password
 7. Click 'login' button
 8. Verify error 'Your email or password is incorrect!' is visible
+   
 ✅ Test Case 4: Logout User
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -62,6 +63,7 @@ Data-Driven approach
 8. Verify that 'Logged in as username' is visible
 9. Click 'Logout' button
 10. Verify that user is navigated to login page
+    
 ✅ Test Case 5: Register User with existing email
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -83,12 +85,14 @@ Data-Driven approach
 9. Click OK button
 10. Verify success message 'Success! Your details have been submitted successfully.' is visible
 11. Click 'Home' button and verify that landed to home page successfully
+    
 ✅ Test Case 7: Verify Test Cases Page
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
 3. Verify that home page is visible successfully
 4. Click on 'Test Cases' button
 5. Verify user is navigated to test cases page successfully
+   
 ✅ Test Case 8: Verify All Products and product detail page
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -99,6 +103,7 @@ Data-Driven approach
 7. Click on 'View Product' of first product
 8. User is landed to product detail page
 9. Verify that detail detail is visible: product name, category, price, availability, condition, brand
+    
 ✅ Test Case 9: Search Product
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -108,6 +113,7 @@ Data-Driven approach
 6. Enter product name in search input and click search button
 7. Verify 'SEARCHED PRODUCTS' is visible
 8. Verify all the products related to search are visible
+   
 ✅ Test Case 10: Verify Subscription in home page
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -116,6 +122,7 @@ Data-Driven approach
 5. Verify text 'SUBSCRIPTION'
 6. Enter email address in input and click arrow button
 7. Verify success message 'You have been successfully subscribed!' is visible
+   
 ✅ Test Case 11: Verify Subscription in Cart page
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -124,6 +131,7 @@ Data-Driven approach
 5. Verify text 'SUBSCRIPTION'
 6. Enter email address in input and click arrow button
 7. Verify success message 'You have been successfully subscribed!' is visible
+   
 ✅ Test Case 12: Add Products in Cart
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -135,6 +143,7 @@ Data-Driven approach
 8. Click 'View Cart' button
 9. Verify both products are added to Cart
 10. Verify their prices, quantity and total price
+    
 ✅ Test Case 13: Verify Product quantity in Cart
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -145,6 +154,7 @@ Data-Driven approach
 7. Click 'Add to cart' button
 8. Click 'View Cart' button
 9. Verify that product is displayed in cart page with exact quantity
+    
 ✅ Test Case 14: Place Order: Register while Checkout
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -166,6 +176,7 @@ Data-Driven approach
 18. Verify success message 'Congratulations! Your order has been confirmed!'
 19. Click 'Delete Account' button
 20. Verify 'ACCOUNT DELETED!' and click 'Continue' button
+    
 ✅ Test Case 15: Place Order: Register before Checkout
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -185,6 +196,7 @@ Data-Driven approach
 16. Verify success message 'Congratulations! Your order has been confirmed!'
 17. Click 'Delete Account' button
 18. Verify that 'ACCOUNT DELETED!' and click 'Continue' button
+    
 ✅ Test Case 16: Place Order: Login before Checkout
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -201,6 +213,7 @@ Data-Driven approach
 13. Enter payment details: Name on Card, Card Number, CVC, Expiration date
 14. Click 'Pay and Confirm Order' button
 15. Verify success message 'Congratulations! Your order has been confirmed!'
+    
 ✅ Test Case 17: Remove Products From Cart
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -210,6 +223,7 @@ Data-Driven approach
 6. Verify that cart page is displayed
 7. Click 'X' button corresponding to particular product
 8. Verify that product is removed from the cart
+   
 ✅ Test Case 18: View Category Products
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -219,6 +233,7 @@ Data-Driven approach
 6. Verify that category page is displayed and confirm text 'WOMEN - DRESS PRODUCTS'
 7. On left side bar, click on any sub-category link of 'Men' category
 8. Verify that user is navigated to that category page
+   
 ✅ Test Case 19: View & Cart Brand Products
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -228,6 +243,7 @@ Data-Driven approach
 6. Verify that user is navigated to brand page and brand products are displayed
 7. On left side bar, click on any other brand link
 8. Verify that user is navigated to that brand page and can see products
+   
 ✅ Test Case 20: Search Products and Verify Cart After Login
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -243,6 +259,7 @@ Data-Driven approach
 12. Verify that those products are visible in cart after login as well
 13. Remove all products that have been added
 14. Verify 'Cart is empty! Click here to buy products.' is visible
+    
 ✅ Test Case 21: Add review on product
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -253,6 +270,7 @@ Data-Driven approach
 7. Enter name, email and review
 8. Click 'Submit' button
 9. Verify success message 'Thank you for your review.'
+    
 ✅ Test Case 22: Add to cart from Recommended items
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -261,6 +279,7 @@ Data-Driven approach
 5. Click on 'Add To Cart' on Recommended product
 6. Click on 'View Cart' button
 7. Verify that product is displayed in cart page
+   
 ✅ Test Case 23: Verify address details in checkout page
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -276,6 +295,7 @@ Data-Driven approach
 12. Verify that the delivery address and the billing address is same address filled at the time registration of account
 13. Click 'Delete Account' button
 14. Verify 'ACCOUNT DELETED!' and click 'Continue' button
+    
 ✅ Test Case 24: Download Invoice after purchase order
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -299,6 +319,7 @@ Data-Driven approach
 20. Click 'Continue' button
 21. Click 'Delete Account' button
 22. Verify 'ACCOUNT DELETED!' and click 'Continue' button
+    
 ✅ Test Case 25: Verify Scroll Up using 'Arrow' button and Scroll Down functionality
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -307,6 +328,7 @@ Data-Driven approach
 5. Verify 'SUBSCRIPTION' is visible
 6. Click on arrow at bottom right side to move upward
 7. Verify that page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible on screen
+   
 ✅ Test Case 26: Verify Scroll Up without 'Arrow' button and Scroll Down functionality
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
