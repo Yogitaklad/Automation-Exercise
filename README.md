@@ -2,9 +2,12 @@
 
 🧑‍🏫 About this project
 This project was developed to enhance test automation proficiency through the application of the Selenium (Java) framework, leveraging insights acquired from an Automation Tester course. The targeted website is designed exclusively for automated testing, encompassing a comprehensive suite of 26 automated tests derived from developer-defined test cases. 
+
+🔧 Tools:
 Maven
 Selenium WebDriver
 TestNG
+
 🎨 Project Design:
 Page Object Model
 Fluent Interface
